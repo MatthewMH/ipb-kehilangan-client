@@ -29,13 +29,28 @@ class Dashboard extends React.Component {
 class FotoProfil extends React.Component {
   constructor() {
     super(props);
-    this.state = {picture : "http://something.com", count: 0}; 
+    this.state = {picture : "http://something.com", count: 0};
   }
 
+  handleLogin = async () => {
+    try {
+      // axios.post()
+
+    } catch {
+      // handle error
+    }
+
+    // success login
+    navigator('/home')
+  }
+  // const [count, setCount] = useState(0);
+
   render() {
+    // something blabla
     return(
       <div>
         <img></img>  
+        <button onClick={handleLogin}>Login</button>
       </div>
     );
   }
