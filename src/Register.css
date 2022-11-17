@@ -1,0 +1,82 @@
+.Register {
+    text-align: center;
+  }
+  
+  .main {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+    background-color: radial-gradient(circle at top left, #A5A6F6, #FFFFFF);
+  }
+  
+  .sub-main {
+    display: flex;
+    justify-content: center;
+    height: 759px;
+    width: 35%;
+    box-shadow: 0px 6px 10px rgb(0, 0, 0);
+    padding-top: 30px;
+    border-radius: 20px;
+    background-color: rgb(217, 217, 217);
+  }
+  
+  .imgs {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    height: 120px;
+  }
+  
+  input {
+    width: 501px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgb(126, 126, 126);
+    border: none;
+    outline: none;
+  }
+  
+  .mata {
+    height: 24px;
+    width: 45px;
+    position: absolute;
+    padding: 15px 0 0 475px;
+  }
+  
+  .name {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  
+  .dua-input {
+    padding-top: 40px;
+  }
+  .tiga-input {
+    padding-top: 40px;
+  }
+  
+  a {
+    color: #000;
+  }
+  
+  button {
+    width: 520px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #5D5FEF;
+    color: white;
+    font-size: 20px;
+    border: none;
+  }
+  
+  .daf-button {
+    padding-top: 40px;
+  }
+  
+  .link-daftar{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  
