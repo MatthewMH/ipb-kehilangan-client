@@ -1,125 +1,56 @@
-.Login {
-  text-align: center;
+import React, {useState} from'react';
+import './Login.css';
+import profile from "./image/profile.png"
+import mata from "./image/eye.png";
+import google from "./image/google.png";
+
+function App() {
+  const [ingatsaya, setIngatsaya]=useState(true);
+
+  const handleChange=() => {
+
+  }
+  return (
+    <div className="main">
+      <div className="sub-main">
+        <div>
+          <div className="imgs">
+              <img src={profile} alt="profile"/>
+          </div>
+          <div className="font1">
+            <h1>Masuk ke IPB Kehilangan</h1>
+          </div>
+          <div>
+              <input type="text" placeholder="email/username" className="name" />
+            </div>
+            <div className="second-input">
+              <img src={mata} alt="mata" className="mata" />
+              <input type="text" placeholder="password" className="name" />
+            </div>
+            <div className="cekbox">
+                <input className="cek" type="checkbox" value={ingatsaya} onChange={()=> handleChange(ingatsaya)} /> ingat saya
+                <p className="lupa-password">
+                <a href="a">lupa kata sandi?</a>
+              </p>
+            </div>
+            <div className="login-button">
+            <button>Masuk</button>
+            </div>
+            <p className="atau">
+              atau
+            </p>
+            <div className="alternatif-login">
+            <img src={google} alt="google" className="google" />
+              <button className="alt-button">Masuk dengan google</button>
+            </div>
+              <p className="link-daftar">
+                Belum punya akun? <a href="a">Daftar</a>
+              </p>
+        </div>
+
+      </div>
+    </div>
+  );
 }
 
-.main {
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  padding: 90px 0 90px 0;
-  background-color: radial-gradient(circle at top left, #A5A6F6, #FFFFFF);
-}
-
-.letaklogo{
-  display: flex;
-  justify-content: left;
-  padding-top: 0px;
-}
-
-.sub-main {
-  display: flex;
-  justify-content: center;
-  height: 759px;
-  width: 35%;
-  box-shadow: 0px 6px 10px rgb(0, 0, 0);
-  padding-top: 30px;
-  border-radius: 20px;
-  background-color: rgb(217, 217, 217);
-}
-
-.imgs {
-  padding-top: 20px;
-  justify-content: center;
-  display: flex;
-  height: 120px;
-}
-
-input {
-  width: 501px;
-  height: 50px;
-  border-radius: 20px;
-  box-shadow: 0 2px 10px rgb(126, 126, 126);
-  border: none;
-  outline: none;
-}
-
-.mata {
-  height: 24px;
-  width: 45px;
-  position: absolute;
-  padding: 15px 0 0 475px;
-}
-
-.name {
-  padding-left: 20px;
-  font-size: 20px;
-}
-.second-input {
-  padding-top: 40px;
-}
-
-.lupa-password{
-  font-size: 20px;
-  font-weight: 400;
-  padding: 0 0 0 360px;
-}
-
-a {
-  color: #000;
-}
-.cekbox {
-  font-size: 20px;
-  padding: 12px 390px 0 0;
-}
-
-.cek {
-  width: 15px;
-  height: 15px;
-}
-
-button {
-  width: 520px;
-  height: 50px;
-  border-radius: 20px;
-  background-color: #5D5FEF;
-  color: white;
-  font-size: 20px;
-  border: none;
-}
-
-.login-button {
-  padding-top: 0px;
-}
-
-.atau {
-  font-size: 20px;
-  font-weight: 400;
-  padding-top: 0px;
-}
-
-.link-daftar{
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.alt-button {
-  width: 520px;
-  height: 50px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  color: black;
-  font-size: 20px;
-  border: none;
-  box-shadow: 0 2px 10px rgb(126, 126, 126);
-}
-
-.google {
-  height: 24px;
-  width: 24px;
-  position: absolute;
-  padding: 12px 0 0 12px;
-}
-
-.alternatif-login {
-  padding-top: 0px;
-}
+export default App;
