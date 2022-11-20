@@ -29,9 +29,7 @@ function App() {
             </div>
             <div className="cekbox">
                 <input className="cek" type="checkbox" value={ingatsaya} onChange={()=> handleChange(ingatsaya)} /> ingat saya
-                <p className="lupa-password">
-                <a href="a">lupa kata sandi?</a>
-              </p>
+                <a className="kata_sandi" href="a">lupa kata sandi?</a>
             </div>
             <div className="login-button">
             <button>Masuk</button>
