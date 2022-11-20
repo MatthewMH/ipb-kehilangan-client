@@ -1,4 +1,4 @@
-.App {
+.Login {
   text-align: center;
 }
 
@@ -10,11 +10,6 @@
   background-color: radial-gradient(circle at top left, #A5A6F6, #FFFFFF);
 }
 
-.letaklogo{
-  display: flex;
-  justify-content: left;
-  padding-top: 0px;
-}
 
 .sub-main {
   display: flex;
@@ -58,18 +53,18 @@ input {
   padding-top: 40px;
 }
 
-.lupa-password{
-  font-size: 20px;
-  font-weight: 400;
-  padding: 0 0 0 360px;
-}
-
 a {
   color: #000;
 }
+
 .cekbox {
   font-size: 20px;
-  padding: 12px 390px 0 0;
+  margin: 11px 0;
+  text-align: left;
+}
+
+.kata_sandi {
+  padding-left: 253px;
 }
 
 .cek {
