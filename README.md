@@ -50,7 +50,7 @@ Aplikasi ini bertujuan untuk membantu civitas IPB yang kehilangan barang agar ba
 Metode yang digunakan dalam  pembuatan perangkat lunak IPB Kehilangan adalah prototyping. Tahapan prototype development diterapkan dalam desain UX dan UI. Low fidelity testing dan high fidelity testing menggunakan feedback dari client agar dapat desain dapat direvisi sesuai permintaan client. Tahapan iterative development dilakukan untuk tahap pembuatan aplikasi setelah desain UI dan UX telah selesai.
 
 ## Use Case
-![use_case](/src/image/Use Case.png)
+![usecase](/src/image/usecase.png)
 
 ## Activity Diagram
 
