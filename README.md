@@ -64,6 +64,7 @@ Metode yang digunakan dalam  pembuatan perangkat lunak IPB Kehilangan adalah pro
 ## Link Deploy
 
 ## Link Figma
-[Design Aplikasi]([https://www.google.com](https://www.figma.com/file/iDjpV8o5Sq6AHvkE9RQAXD/Kelompok-3-MPPL?node-id=106%3A3&t=M4xKZ0gx2M9AyDaq-1](https://www.figma.com/file/iDjpV8o5Sq6AHvkE9RQAXD/Kelompok-3-MPPL?node-id=106%3A3&t=M4xKZ0gx2M9AyDaq-0))
+[Design Aplikasi]((https://www.figma.com/file/iDjpV8o5Sq6AHvkE9RQAXD/Kelompok-3-MPPL?node-id=106%3A3&t=M4xKZ0gx2M9AyDaq-0))
 
 ## Kendala
+[I'm an inline-style link](https://www.google.com)
