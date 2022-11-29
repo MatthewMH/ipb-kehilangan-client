@@ -26,6 +26,9 @@
 Aplikasi ini bertujuan untuk membantu civitas IPB yang kehilangan barang agar barang yang hilang dapat lebih mudah ditemukan yaitu dengan cara menyebarkan informasi kehilangan di sekitar kampus IPB.
 
 ## User Story
++ “Sebagai orang yang kehilangan barang saya  ingin membuat laporan kehilangan barang sehingga saya dapat menemukan barang saya dengan lebih cepat dan mudah.”
++ “Sebagai orang yang menemukan barang saya ingin melaporkan penemuan barang kepada pihak yang tepat sehingga barang dapat diberikan kepada pemilik barang dengan lebih cepat dan mudah. “
+
 
 ## Cakupan
 - Role           : Admin, pelapor barang hilang dan penemu barang hilang yang seluruhnya merupakan civitas IPB
@@ -36,7 +39,21 @@ Aplikasi ini bertujuan untuk membantu civitas IPB yang kehilangan barang agar ba
 - Ditujukan hanya untuk civitas IPB
 - Aplikasi tidak tersedia dalam bentuk mobile.
 
+
 ## Kebutuhan Sistem
+1. Hardware
+   + Processor 4 core dan clock rate minimal 1.6 GHz (64 bit), 
+   + RAM 2 GB, DDR 3, 
+   + Harddisk 50 GB, 
+   + LAN CARD (NIC) atau Internet
+2. Software
+   + Figma, 
+   + Visual Studio Code, 
+   + Github, 
+   + Google Docs, 
+   + Trello, 
+   + Zoom
+
 
 ## Risiko
 | Risk                                                                                            | Rating Risk |
@@ -67,3 +84,7 @@ Metode yang digunakan dalam  pembuatan perangkat lunak IPB Kehilangan adalah pro
 [Design Aplikasi](https://ipb.link/figma-ipbkehilangan)
 
 ## Kendala
++ Scope projek yang terlalu besar
++ Framework yang sulit dipahami
++ Kesibukan lain yang memiliki prioritas lebih tinggi
+
