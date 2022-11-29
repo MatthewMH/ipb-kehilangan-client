@@ -1,5 +1,5 @@
 # IPB KEHILANGAN
-![landing](/images-laporan/user/homepage.jpg)
+![landing](/src/images/landing.png)
 
 ## Laporan Akhir Projek
 - KOM 330 | Manajemen Proyek Perangkat Lunak | R3
