@@ -27,9 +27,7 @@ Aplikasi ini bertujuan untuk membantu civitas IPB yang kehilangan barang agar ba
 ## User Story
 
 ## Cakupan
-| --------------------------------------------------------------------------------------------------           |
 | Role           | Admin, pelapor barang hilang dan penemu barang hilang yang seluruhnya merupakan civitas IPB |
-| --------------------------------------------------------------------------------------------------           |
 | Frontend       | Next.js                                                                                     |
 | Backend        | Express.js                                                                                  |
 | Database       | PostgreSQL                                                                                  |
